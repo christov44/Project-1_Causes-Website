@@ -1,17 +1,61 @@
 body{
-	width:90%;
+	width:95%;
+	font-family: "Palatino Linotype", Palatino, serif;
+}
 header{
 	width: 960px;
 	margin: 0 auto;
+	padding: 30px;
 }
-nav li{
-	
+h1{
+	width: 150px;
+	float: left;
+	margin: 0 auto;
+}
+nav {
+	width: 810px;
+	float: left;
+}
+nav ul li{
+	display: inline;
+	padding: 30px;
+	margin: 20px 20px;
+	list-style-type: none;
+}
+nav ul li a{
+	color: black;
+	text-decoration: none;
+	font-weight: bold;
+}
+#turtle {
+	width: 100%;
+	margin: 10px;
+	padding: 10px;
+}
+section{
+	box-sizing:border-box;
 }
 #why_wrapper{
 	width: 960px;
 	margin: 0 auto;
 }
-aside{
-	width:150px;
+aside {
+	width:200px;
 	float:left;
+}
+aside .inner{
+	margin: 10px;
+	padding: 10px;
+}
+article{
+	width:760px;
+	float: left;
+}
+article .inner{
+	margin: 10px;
+	padding: 10px;
+}
+footer {
+	width: 960px;
+	margin: 0 auto;
 }
