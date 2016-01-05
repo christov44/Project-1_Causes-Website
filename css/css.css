@@ -1,0 +1,17 @@
+body{
+	width:90%;
+header{
+	width: 960px;
+	margin: 0 auto;
+}
+nav li{
+	
+}
+#why_wrapper{
+	width: 960px;
+	margin: 0 auto;
+}
+aside{
+	width:150px;
+	float:left;
+}
