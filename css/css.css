@@ -1,5 +1,7 @@
+/* Taylor's section of CSS */
+
 body{
-	width: 95%;
+	width:95%;
 	font-family: "Palatino Linotype", Palatino, serif;
 }
 header{
@@ -60,40 +62,100 @@ footer {
 	width: 960px;
 	margin: 0 auto;
 }
-@media all and (max-width: 980px) and (min-width: 400px) {
-	/*When the text starts to appear cut off */
-	header, footer, #why #why_wrapper, #why nav {
-		width: 100%;
-	}
-	#why h1, #why nav {
-		float: none;
-	}
-	#why h1{
-		margin: 0;
-	}
-	#why nav ul li a {
-		display:block;
-		padding: 0px;
-		margin: 0px;
-	}
-	#why aside {
-		float: none;
-		width: 100%;
-		margin: 0;
-		padding: 0;
-	}
-	#why aside .inner{
-		margin: 1px 10px;
-		padding: 10px 10px;
-	}
-	#why article {
-		float: none;
-		width: 100%;
-		margin: 0;
-		padding: 0;
-	}
-	footer {
-		margin: 0;
-		padding: 0;
-	}
+
+/* This is Christian's section of CSS */
+
+#donate {
+	margin: auto;
+	margin-left: 50px;
 }
+
+#donate .title {
+	clear: left;
+	height: 80px;
+	background-image: url("../images/underwater.jpg");
+	color: white;
+	padding-left: 20px;
+	margin-top: 50px;
+	font-size: 50px;
+}
+
+#donate .images {
+	text-align: center;
+}
+
+#donate .body_block {
+	width: 920px;
+	margin: 0 auto;
+}
+
+#donate .body_block .header_1 {
+	background-color: #000099;
+	color: white;
+	padding-left: 10px;
+}
+
+#donate .body_block .donation_amounts a {
+	padding: 10px 12px;
+	margin-right: 20px;
+	text-align: center;
+	width: 50px;
+	border: 2px solid black;
+	color: white;
+	background-color: black;
+	display: inline-block;
+	border-radius: 5px;
+}
+
+#donate .body_block .donation_amounts a:hover {
+	background-color: #006699;
+	border: 2px 002233;
+}
+
+
+#donate .body_block .billing_details  {
+	margin-left: 20px;
+}
+
+#donate .body_block .left_block {
+	width: 30%;
+	display: inline-block;
+}
+
+#donate .body_block .right_block {
+	width: 70%;
+	display: inline-block;
+	float: right;
+}
+
+#donate .body_block .payment_methods a {
+	padding: 10px 12px;
+	margin: 0 20px 20px 0;
+	text-align: center;
+	width: 100px;
+	border: 2px solid black;
+	color: white;
+	background-color: black;
+	display: inline-block;
+	border-radius: 5px;
+}
+
+#donate .body_block .payment_methods a:hover {
+	background-color: #006699;
+	border: 2px 002233;
+}
+
+#donate .body_block .submit_payment a {
+	width: 200px;
+	height: 30px;
+	padding: 10px 12px 0 0;
+	margin: 30px 20px 20px 0px;
+	text-align: center;
+	border: 5px solid #999966;
+	color: white;
+	background-color: #ff751a;
+	display: inline-block;
+	border-radius: 5px;
+}
+
+/* End Christian's section */
