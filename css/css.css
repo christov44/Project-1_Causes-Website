@@ -1,3 +1,5 @@
+/* Taylor's section of CSS */
+
 body{
 	width:95%;
 	font-family: 'Open Sans Condensed', sans-serif;
@@ -8,12 +10,12 @@ header{
 	padding: 30px;
 }
 h1{
-	width: 150px;
+	width: 250px;
 	float: left;
 	margin: 0 auto;
 }
 nav {
-	width: 810px;
+	width: 710px;
 	float: left;
 }
 nav ul li{
@@ -27,31 +29,32 @@ nav ul li a{
 	text-decoration: none;
 	font-weight: bold;
 }
-#turtle {
+#why #turtle {
 	width: 100%;
 	margin: 10px;
 	padding: 10px;
 }
-section{
+#why section{
 	box-sizing:border-box;
 }
-#why_wrapper{
+#why #why_wrapper{
 	width: 960px;
+	max-width: 960px;
 	margin: 0 auto;
 }
-aside {
+#why aside {
 	width:200px;
 	float:left;
 }
-aside .inner{
+#why aside .inner{
 	margin: 10px;
 	padding: 10px;
 }
-article{
+#why article{
 	width:760px;
 	float: left;
 }
-article .inner{
+#why article .inner{
 	margin: 10px;
 	padding: 10px;
 }
@@ -59,6 +62,7 @@ footer {
 	width: 960px;
 	margin: 0 auto;
 }
+
 
 
 /* this is css for main page */
@@ -167,3 +171,103 @@ li a:hover {
 
 
 
+=======
+/* This is Christian's section of CSS */
+
+#donate {
+	margin: auto;
+	margin-left: 50px;
+	margin-top: 20px;
+	padding: 20px;
+}
+
+#donate .title {
+	clear: left;
+	height: 80px;
+	background-image: url("../images/underwater.jpg");
+	color: white;
+	padding-left: 20px;
+	margin-top: 50px;
+	font-size: 50px;
+}
+
+#donate .images {
+	text-align: center;
+}
+
+#donate .body_block {
+	width: 920px;
+	margin: 0 auto;
+}
+
+#donate .body_block .header_1 {
+	background-color: #000099;
+	color: white;
+	padding-left: 10px;
+}
+
+#donate .body_block .donation_amounts a {
+	padding: 10px 12px;
+	margin-right: 20px;
+	text-align: center;
+	width: 50px;
+	border: 2px solid black;
+	color: white;
+	background-color: black;
+	display: inline-block;
+	border-radius: 5px;
+}
+
+#donate .body_block .donation_amounts a:hover {
+	background-color: #006699;
+	border: 2px 002233;
+}
+
+
+#donate .body_block .billing_details  {
+	margin-left: 20px;
+}
+
+#donate .body_block .left_block {
+	width: 30%;
+	display: inline-block;
+}
+
+#donate .body_block .right_block {
+	width: 70%;
+	display: inline-block;
+	float: right;
+}
+
+#donate .body_block .payment_methods a {
+	padding: 10px 12px;
+	margin: 0 20px 20px 0;
+	text-align: center;
+	width: 100px;
+	border: 2px solid black;
+	color: white;
+	background-color: black;
+	display: inline-block;
+	border-radius: 5px;
+}
+
+#donate .body_block .payment_methods a:hover {
+	background-color: #006699;
+	border: 2px 002233;
+}
+
+#donate .body_block .submit_payment a {
+	width: 200px;
+	height: 30px;
+	padding: 10px 12px 0 0;
+	margin: 30px 20px 20px 0px;
+	text-align: center;
+	border: 5px solid #999966;
+	color: white;
+	background-color: #ff751a;
+	display: inline-block;
+	border-radius: 5px;
+}
+
+/* End Christian's section */
+>>>>>>> a876e97e9f6f1dd705c143830431f14b4911ea48
