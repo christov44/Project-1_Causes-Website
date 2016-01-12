@@ -1,13 +1,98 @@
+/* this is css for main page */
+
+body{
+	 font-family: 'Open Sans Condensed', sans-serif;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #00BFFF;
+    height: 68px;
+    width: 1300px;
+}
+li {
+    float: left;
+    height: 68px;
+}
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 0px 10px;
+    padding-right: 40px;
+    text-decoration: none;
+    font-size: 45px; 
+}
+
+/* Change the link color to #111 (black) on hover */
+
+li a:hover {
+    background-color: #808080;
+     height: 68px;
+}
+.social{
+	float: right;
+}
+.logo{
+    float: left;
+    width: 200px;
+    font-size: 3em;
+    color: black;
+    text-align: left;
+    font-style: bold;
+  	padding: 10px;
+}
+h5{
+	float: left;
+	width: 700px;
+	font-size: 3em;
+}
+.pics{
+	float: right;
+	display: inline-block;
+    padding-top: 170px;
+    padding-right: 67px;
+}
+.maintxt{
+	float: left;
+	width: 800px;
+    padding: 30px;
+    margin: 5px;
+    color: black;
+    padding-left: 70px;
+}
+
+.pics2{
+    float: left;
+    clear: left;
+    padding: 30px;
+    padding-top: 127px;
+    padding-left: 60px;
+}
+
+.maintxt2{
+    float: left;
+    width: 800px;
+    padding-top: 0px;
+    color: black; 
+    padding-left: 60px; 
+}
+footer {
+	width: 960px;
+	margin: 10px 10px;
+	padding: 20px;
+	float: left;
+}
+
+
+/*End of Jonnathon's CSS */
 /* Taylor's section of CSS */
+
 
 body{
 	width:95%;
-	font-family: 'Open Sans Condensed', sans-serif;
-}
-header{
-	width: 960px;
-	margin: 0 auto;
-	padding: 30px;
 }
 h1{
 	width: 250px;
@@ -58,120 +143,7 @@ nav ul li a{
 	margin: 10px;
 	padding: 10px;
 }
-footer {
-	width: 960px;
-	margin: 0 auto;
-}
 
-
-
-/* this is css for main page */
-
-
-
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #00BFFF;
-    height: 68px;
-    width: 1890px;
- 
-
-}
-
-
-
-li {
-    float: left;
-    height: 68px;
-
-}
-
-li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 0px 10px;
-    padding-right: 40px;
-    text-decoration: none;
-    font-size: 45px; 
-    font-family: 'Open Sans Condensed', sans-serif;
-}
-
-/* Change the link color to #111 (black) on hover */
-li a:hover {
-    background-color: #808080;
-     height: 68px;
-
-}
-
-.social{
-	float: right;
-}
-
-.logo{
-    float: left;
-    color: black;
-    font-size: 90px; 
-    font-family: 'Open Sans Condensed', sans-serif;
-    font-style: bold;
-    text-align: left;
-
-    
-}
-
-
-.pics{
-	float: right;
-	display: inline-block;
-    padding-top: 170px;
-    padding-right: 67px;
-
-}
-
-.maintxt{
-	font-size: 30px; 
-	font-family: 'Open Sans Condensed', sans-serif;
-	float: left;
-	width: 800px;
-    padding: 30px;
-    margin: 5px;
-    color: black;
-    padding-left: 70px;
-
-
-}
-
-.pics2{
-    float: left;
-    clear: left;
-    padding: 30px;
-    padding-top: 127px;
-    padding-left: 60px;
-
-}
-
-.maintxt2{
-    font-size: 30px; 
-    font-family: 'Open Sans Condensed', sans-serif;
-    float: left;
-    width: 800px;
-    padding-top: 0px;
-    color: black; 
-    padding-left: 60px; 
-
-}
-
-
-
-
-
-
-
-
-=======
 /* This is Christian's section of CSS */
 
 #donate {
@@ -270,4 +242,3 @@ li a:hover {
 }
 
 /* End Christian's section */
->>>>>>> a876e97e9f6f1dd705c143830431f14b4911ea48
